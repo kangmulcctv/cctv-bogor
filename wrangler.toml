@@ -1,0 +1,11 @@
+name = "cctv-bogor-online"
+type = "webpack"
+account_id = "dfa9ada2c2a9384090381cd2c0fd281c"
+compatibility_date = "2025-05-10"
+
+[site]
+bucket = "./public"
+entry-point = "."
+
+[build]
+command = "npm run build"
