@@ -1,0 +1,262 @@
+baseURL = "https://cctv-bogor.online/"
+languageCode = "id"
+title = "Jasa Pasang Kamera CCTV Bogor | Solusi Keamanan Terpercaya untuk Rumah & Bisnis"
+theme = "saeseen-hugo"
+summaryLength = 25
+paginate = 6
+
+[permalinks]
+  post = "/:slug/"
+  page = "/:slug/"
+  category = "/:slug/"
+
+[params]
+  # Site-wide settings
+  meta_description = "Jasa Pasang Kamera CCTV Bogor | Solusi Keamanan Terpercaya untuk Rumah & Bisnis"
+  viewport = "width=device-width, initial-scale=1.0"
+  fontawesome = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+  logo = "/images/logo/logo-cctv-bogor.png"
+  logo_amp = "/images/logo/cctv-bogor-512x512.png"
+  footer_logo = "/images/logo/logo-cctv-bogor-putih.png"
+  favicon = "/images/logo/cctv-bogor-512x512.png"
+  featured_image = "/images/admin/featured-image.png"
+  author = "Kang. Mul"
+  telepon = "//+6289686868868"
+  whatsapp = "//api.whatsapp.com/send?phone=6289686868868&text=*Halo cctv-bogor.online*%20%3A"
+  enableWhatApps = true
+  enableTelepon = true
+  tocMinWordCount = 300
+  tableOfContent = "Daftar Isi:"
+  geo_latitude = -6.595038
+  geo_longitude = 106.817787
+  opening_hours = "Mo-Sa 08:00-17:00"
+
+# Schema settings
+base_price = 500000
+price_range = 15000000
+categories = ["Jasa Pasang CCTV", "CCTV Rumah", "CCTV Kantor", "CCTV Sekolah", "CCTV Outdoor", "CCTV Indoor"]
+payment_methods = ["COD (Bayar di Tempat)", "Transfer Bank", "DP 30%", "Bayar Setelah Instalasi", "Bayar Bertahap"]
+area_served = ["Bogor", "Jakarta", "Depok", "Tangerang", "Bekasi", "Cibinong", "Sentul", "Cileungsi", "Parung", "Cisarua", "Sukabumi"]
+keywords = ["jasa pasang cctv bogor", "pasang kamera cctv rumah", "instalasi cctv kantor", "paket cctv murah", "cctv online", "cctv wireless", "cctv terbaik bogor"]
+free_shipping = true
+
+# Product
+materials = [
+  "Kamera CCTV Analog",
+  "Kamera CCTV IP",
+  "Kamera CCTV Wireless",
+  "DVR/NVR",
+  "Kabel CCTV",
+  "Power Supply CCTV"
+]
+return_policies = [
+  "Garansi pemasangan 1 tahun.",
+  "Penggantian unit jika rusak dalam masa garansi.",
+  "Gratis pengecekan ulang jika instalasi bermasalah."
+]
+
+# Service
+service_types = [
+  "Pemasangan CCTV Rumah",
+  "Pemasangan CCTV Kantor",
+  "Pemasangan CCTV Sekolah",
+  "Pemasangan CCTV Outdoor & Indoor",
+  "Maintenance & Perbaikan CCTV"
+]
+cancellation_policies = [
+  "Pembatalan sebelum pemasangan tanpa biaya.",
+  "Pengembalian DP jika pemasangan tidak jadi.",
+  "Revisi posisi kamera tanpa biaya tambahan saat instalasi."
+]
+service_output = "Keamanan rumah & bisnis Anda terpantau 24 jam dengan pemasangan CCTV profesional dan bergaransi."
+
+# Informasi Perusahaan
+companyName = "CV. CCTV Bogor Online"
+aboutUs = "Kami adalah spesialis jasa pemasangan kamera CCTV di Bogor dan sekitarnya, menyediakan solusi keamanan terbaik untuk rumah, kantor, sekolah, dan area bisnis dengan produk berkualitas dan teknisi berpengalaman."
+companyWeb = "cctv-bogor.online"
+
+  # Informasi Kontak
+  phone = "0896-8686-8868"
+  email = "tukangpasangcctvbogor@gmail.com"
+  address = "Jl. Raya Cibinong No. 123, Bogor, Jawa Barat 16710"
+  whatsappNumber = "6289686868868"
+
+ # Hero Section
+hero_image = "/images/admin/bg_brc_gelap.png"
+hero_title = "Jasa Pasang Kamera CCTV Bogor"
+hero_description = "Solusi pemasangan CCTV profesional untuk rumah, kantor, sekolah, dan bisnis Anda di Bogor. Keamanan terjamin dengan produk berkualitas dan teknisi berpengalaman."
+hero_cta_text = "Lihat Paket CCTV"
+services_cta_text = "Konsultasi Gratis"
+
+# Footer Section
+footer_about_title = "Mengapa Pilih Kami?"
+footer_about_description = "Kami menyediakan layanan pemasangan CCTV terbaik di Bogor dengan harga terjangkau, garansi pemasangan, dan dukungan teknis profesional untuk keamanan properti Anda."
+
+footer_services_title = "Layanan Kami"
+footer_contact_title = "Kontak Kami"
+footer_bottom_text = "@2025 CCTV Bogor Online. Hak Cipta Dilindungi."
+
+# Testimonials Section
+testimonials_title = "Pendapat Klien Kami"
+
+[[params.footer_services]]
+text = "cctv-bogor.online adalah layanan spesialis pemasangan kamera CCTV profesional di Bogor dan sekitarnya. Kami menyediakan solusi keamanan terbaik untuk rumah, kantor, sekolah, dan bisnis Anda dengan produk CCTV berkualitas, teknisi berpengalaman, harga terjangkau, serta garansi pemasangan. Percayakan keamanan properti Anda kepada kami untuk hasil yang optimal dan layanan purna jual terpercaya."
+
+  [[params.footer_contact]]
+    icon = "fas fa-map-marker-alt"
+    text = "Jl. Raya Cibinong No. 123, Bogor, Jawa Barat 16710"
+  [[params.footer_contact]]
+    icon = "fas fa-phone-alt"
+    text = "0896-8686-8868"
+  [[params.footer_contact]]
+    icon = "fas fa-envelope"
+    text = "tukangpasangcctvbogor@gmail.com"
+
+[[params.testimonials]]
+avatar = "/images/admin/avatar1.png"
+name = "Budi"
+message = "Saya menggunakan jasa pemasangan CCTV dari cctv-bogor.online untuk rumah saya. Proses pemasangan sangat cepat, teknisinya ramah dan profesional. Hasil gambar kameranya jernih dan area rumah jadi lebih aman."
+response = "Terima kasih Pak Budi atas kepercayaannya menggunakan layanan kami. Kami senang bisa membantu meningkatkan keamanan rumah Anda."
+rating = 5
+
+[[params.testimonials]]
+avatar = "/images/admin/avatar2.png"
+name = "Siti"
+message = "Pelayanan pemasangan CCTV di kantor kami sangat memuaskan. Konsultasi gratis, harga transparan, dan pemasangan rapi. Sekarang kantor jadi lebih tenang karena semua area terpantau."
+response = "Terima kasih Ibu Siti atas ulasannya. Kami selalu berusaha memberikan layanan terbaik untuk setiap pelanggan."
+rating = 5
+
+[[params.testimonials]]
+avatar = "/images/admin/avatar3.png"
+name = "Joko"
+message = "Saya pesan paket CCTV untuk toko. Proses survei dan pemasangan cepat, hasilnya sesuai harapan. Ada garansi pemasangan juga, jadi makin yakin."
+response = "Terima kasih Pak Joko sudah mempercayakan pemasangan CCTV pada kami. Semoga toko Bapak selalu aman."
+rating = 4
+
+[[params.testimonials]]
+avatar = "/images/admin/avatar4.png"
+name = "Dewi"
+message = "Teknisi cctv-bogor.online sangat membantu, penjelasannya jelas dan pemasangan tidak mengganggu aktivitas di rumah. Hasil pemasangan rapi dan bisa dipantau lewat HP."
+response = "Terima kasih Ibu Dewi atas feedbacknya. Kami senang bisa memberikan solusi keamanan yang praktis untuk keluarga Anda."
+rating = 5
+
+[[params.testimonials]]
+avatar = "/images/admin/avatar5.png"
+name = "Agus"
+message = "Harga paket CCTV di sini sangat terjangkau dan kualitas kameranya bagus. Proses pemasangan juga cepat dan bersih. Sangat direkomendasikan!"
+response = "Terima kasih Pak Agus atas rekomendasinya. Kami selalu berkomitmen memberikan layanan terbaik dan harga bersaing."
+rating = 5
+
+[[params.testimonials]]
+avatar = "/images/admin/avatar6.png"
+name = "Rina"
+message = "Saya pasang CCTV untuk sekolah. Pelayanan dari awal konsultasi sampai pemasangan sangat profesional. Semua area sekolah sekarang bisa dipantau dengan jelas."
+response = "Terima kasih Ibu Rina atas kepercayaannya. Semoga sistem CCTV kami bisa membantu meningkatkan keamanan di sekolah."
+rating = 5
+
+[[params.tabelItems]]
+  name = "Paket CCTV 2 Kamera"
+  price = "Rp2.500.000 /paket"
+[[params.tabelItems]]
+  name = "Paket CCTV 4 Kamera"
+  price = "Rp4.500.000 /paket"
+[[params.tabelItems]]
+  name = "Paket CCTV 8 Kamera"
+  price = "Rp8.500.000 /paket"
+[[params.tabelItems]]
+  name = "Paket CCTV Wireless"
+  price = "Rp3.000.000 /paket"
+[[params.tabelItems]]
+  name = "Paket CCTV IP Camera"
+  price = "Rp4.800.000 /paket"
+
+[[params.tabelItems]]
+  name = "Jasa Instalasi CCTV Rumah"
+  price = "Rp500.000 /lokasi"
+[[params.tabelItems]]
+  name = "Jasa Instalasi CCTV Kantor"
+  price = "Rp750.000 /lokasi"
+[[params.tabelItems]]
+  name = "Jasa Instalasi CCTV Sekolah"
+  price = "Rp1.000.000 /lokasi"
+[[params.tabelItems]]
+  name = "Maintenance & Perbaikan CCTV"
+  price = "Rp250.000 /kunjungan"
+[[params.tabelItems]]
+  name = "Upgrade Sistem CCTV"
+  price = "Rp1.500.000 /paket"
+
+[params.appliList]
+  "Paket CCTV 2 Kamera" = "Cocok untuk rumah kecil, toko, atau area terbatas"
+  "Paket CCTV 4 Kamera" = "Ideal untuk rumah besar, kantor kecil, atau ruko"
+  "Paket CCTV 8 Kamera" = "Untuk kantor, sekolah, atau area bisnis yang luas"
+  "Paket CCTV Wireless" = "Solusi tanpa kabel, mudah dipasang dan dipindah"
+  "Paket CCTV IP Camera" = "Kualitas gambar tinggi, bisa dipantau online"
+  "Jasa Instalasi CCTV Rumah" = "Pemasangan profesional untuk keamanan rumah"
+  "Jasa Instalasi CCTV Kantor" = "Instalasi sistem CCTV untuk area perkantoran"
+  "Jasa Instalasi CCTV Sekolah" = "Pengawasan area sekolah dan lingkungan pendidikan"
+  "Maintenance & Perbaikan CCTV" = "Perawatan dan perbaikan sistem CCTV bermasalah"
+  "Upgrade Sistem CCTV" = "Peningkatan kualitas dan fitur sistem CCTV lama"
+
+[params.kegunaanList]
+  "Paket CCTV 2 Kamera" = "Mengawasi pintu masuk dan area utama rumah"
+  "Paket CCTV 4 Kamera" = "Memantau beberapa sudut rumah atau toko"
+  "Paket CCTV 8 Kamera" = "Pengawasan menyeluruh untuk area luas"
+  "Paket CCTV Wireless" = "Instalasi cepat tanpa kabel, cocok untuk sewa/kontrakan"
+  "Paket CCTV IP Camera" = "Pantauan real-time dari HP/laptop, kualitas HD"
+  "Jasa Instalasi CCTV Rumah" = "Menjamin keamanan keluarga dan properti"
+  "Jasa Instalasi CCTV Kantor" = "Meningkatkan keamanan dan produktivitas kantor"
+  "Jasa Instalasi CCTV Sekolah" = "Mencegah tindakan kriminal di lingkungan sekolah"
+  "Maintenance & Perbaikan CCTV" = "Menjaga sistem CCTV tetap optimal"
+  "Upgrade Sistem CCTV" = "Menambah kamera atau fitur baru sesuai kebutuhan"
+
+  # Menu Section
+  [[params.menu_items]]
+    title = "Beranda"
+    url = "/"
+  [[params.menu_items]]
+    title = "Profile"
+    url = "/profile/"
+
+  [[params.menu_items]]
+    title = "Biaya"
+    url = "/categories/biaya/"
+
+  [[params.menu_items]]
+    title = "Jasa"
+    url = "/categories/jasa/"
+
+  [[params.menu_items]]
+    title = "Info"
+    url = "/categories/pasang/"
+
+[params.header]
+   title = "Jasa Pasang Kamera CCTV Solusi Keamanan Terpercaya untuk Rumah & Bisnis | "
+   highlight = "CCTV Bogor Online"
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 3
+
+[related]
+  threshold = 80
+  includeNewer = true
+  toLower = false
+
+[[related.indices]]
+  name = "categories"
+  weight = 100
+
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML", "AMP"]
+
+[outputFormats]
+  [outputFormats.AMP]
+    mediaType = "text/html"
+    baseName = "amp/index"
+    path = ""
+    isPlainText = false
+    permalinkable = true
+    rel = "amphtml"

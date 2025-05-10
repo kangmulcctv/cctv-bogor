@@ -1,0 +1,59 @@
+testimonials:
+  - avatar: /images/admin/avatar1.png
+    name: Budi
+    message: >-
+      Saya menggunakan jasa pemasangan CCTV dari cctv-bogor.online untuk rumah
+      saya. Proses pemasangan sangat cepat, teknisinya ramah dan profesional.
+      Hasil gambar kameranya jernih dan area rumah jadi lebih aman.
+    response: >-
+      Terima kasih Pak Budi atas kepercayaannya menggunakan layanan kami. Kami
+      senang bisa membantu meningkatkan keamanan rumah Anda.
+    rating: 5
+  - avatar: /images/admin/avatar2.png
+    name: Siti
+    message: >-
+      Pelayanan pemasangan CCTV di kantor kami sangat memuaskan. Konsultasi
+      gratis, harga transparan, dan pemasangan rapi. Sekarang kantor jadi lebih
+      tenang karena semua area terpantau.
+    response: >-
+      Terima kasih Ibu Siti atas ulasannya. Kami selalu berusaha memberikan
+      layanan terbaik untuk setiap pelanggan.
+    rating: 5
+  - avatar: /images/admin/avatar3.png
+    name: Joko
+    message: >-
+      Saya pesan paket CCTV untuk toko. Proses survei dan pemasangan cepat,
+      hasilnya sesuai harapan. Ada garansi pemasangan juga, jadi makin yakin.
+    response: >-
+      Terima kasih Pak Joko sudah mempercayakan pemasangan CCTV pada kami.
+      Semoga toko Bapak selalu aman.
+    rating: 4
+  - avatar: /images/admin/avatar4.png
+    name: Dewi
+    message: >-
+      Teknisi cctv-bogor.online sangat membantu, penjelasannya jelas dan
+      pemasangan tidak mengganggu aktivitas di rumah. Hasil pemasangan rapi dan
+      bisa dipantau lewat HP.
+    response: >-
+      Terima kasih Ibu Dewi atas feedbacknya. Kami senang bisa memberikan solusi
+      keamanan yang praktis untuk keluarga Anda.
+    rating: 5
+  - avatar: /images/admin/avatar5.png
+    name: Agus
+    message: >-
+      Harga paket CCTV di sini sangat terjangkau dan kualitas kameranya bagus.
+      Proses pemasangan juga cepat dan bersih. Sangat direkomendasikan!
+    response: >-
+      Terima kasih Pak Agus atas rekomendasinya. Kami selalu berkomitmen
+      memberikan layanan terbaik dan harga bersaing.
+    rating: 5
+  - avatar: /images/admin/avatar6.png
+    name: Rina
+    message: >-
+      Saya pasang CCTV untuk sekolah. Pelayanan dari awal konsultasi sampai
+      pemasangan sangat profesional. Semua area sekolah sekarang bisa dipantau
+      dengan jelas.
+    response: >-
+      Terima kasih Ibu Rina atas kepercayaannya. Semoga sistem CCTV kami bisa
+      membantu meningkatkan keamanan di sekolah.
+    rating: 5
