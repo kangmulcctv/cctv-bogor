@@ -1,4 +1,4 @@
-name = "cctv-bogor-online"
+name = "cctv-bogor"
 type = "webpack"
 account_id = "dfa9ada2c2a9384090381cd2c0fd281c"
 compatibility_date = "2025-05-10"
