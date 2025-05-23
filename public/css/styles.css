@@ -1533,10 +1533,10 @@ caption {
 .slider {
   position: relative;
   width: 100%;
-  height: 500px;  /* Increased height for better visibility */
+  height: 400px;
   overflow: hidden;
-  border-radius: 12px;
-  margin: 0 auto;
+  border-radius: 8px;
+  margin: 2rem 0;
   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
 
@@ -1584,7 +1584,7 @@ caption {
 
 @media (max-width: 768px) {
   .slider {
-    height: 350px;  /* Adjusted height for mobile */
+    height: 300px;
   }
 }
 /* Profile Gallery Styles */
@@ -1637,14 +1637,4 @@ caption {
   .profile-gallery-grid {
     grid-template-columns: 1fr;
   }
-}
-
-.installation-gallery {
-  margin: 4rem 0;
-  text-align: center;
-}
-
-.installation-gallery h2 {
-  margin-bottom: 2rem;
-  color: var(--text-color);
 }
