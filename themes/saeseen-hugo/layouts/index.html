@@ -1,0 +1,70 @@
+{{ define "main" }}
+<main>
+  <section class="home">
+    <div class="container">
+      <!-- Hero Section -->
+      <div class="hero">
+        <div class="hero-content">
+          <h1>{{ .Site.Params.hero_title }}</h1>
+          <p>{{ .Site.Params.hero_description }}</p>
+          <a href="#services" class="cta-button">{{ .Site.Params.hero_cta_text }}</a>
+        </div>
+        <div class="hero-image">
+          <img src="{{ .Site.Params.hero_image }}" alt="{{ .Site.Params.hero_title }}" width="500" height="300" loading="lazy">
+        </div>
+      </div>
+
+      <!-- Installation Gallery Section -->
+      <section class="installation-gallery">
+        <h2>{{ .Site.Params.slider_title }}</h2>
+        <div class="slider">
+          {{ range $index, $image := .Site.Params.slider_images }}
+          <div class="slide{{ if eq $index 0 }} active{{ end }}">
+            <img src="{{ .src }}" alt="{{ .alt }}" loading="lazy">
+          </div>
+          {{ end }}
+          <div class="slider-nav">
+            {{ range $index, $_ := .Site.Params.slider_images }}
+            <button class="slider-dot{{ if eq $index 0 }} active{{ end }}"></button>
+            {{ end }}
+          </div>
+        </div>
+      </section>
+
+      <!-- Product Features -->
+      <section class="features">
+        <h2>Keunggulan Produk</h2>
+        <div class="features-grid">
+          {{ range .Site.Params.product_features }}
+          <div class="feature-card">
+            <i class="{{ .icon }}"></i>
+            <h3>{{ .title }}</h3>
+            <p>{{ .description }}</p>
+          </div>
+          {{ end }}
+        </div>
+      </section>
+
+      <!-- Product Types -->
+      <section class="products" id="services">
+        <h2>Jenis Produk</h2>
+        <div class="product-grid">
+          {{ range .Site.Params.product_types }}
+          <div class="product-card">
+            <img src="{{ .image }}" alt="{{ .name }}" loading="lazy">
+            <h3>{{ .name }}</h3>
+            <p>{{ .description }}</p>
+            <span class="price">{{ .price }}</span>
+            <a href="{{ .link }}" class="cta-button">Selengkapnya</a>
+          </div>
+          {{ end }}
+        </div>
+      </section>
+
+      <!-- Testimonial Section -->
+      {{ partial "testimonial.html" . }}
+    </div>
+  </section>
+</main>
+<script src="/js/slider.js"></script>
+{{ end }}

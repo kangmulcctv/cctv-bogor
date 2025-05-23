@@ -1,0 +1,90 @@
+{{ define "main" }}
+<div class="product-landing">
+  <!-- Hero Section -->
+  <section class="product-hero">
+    <div class="container">
+      <div class="product-hero-content">
+        <div class="product-info">
+          <h1>{{ .Title }}</h1>
+          <p class="product-description">{{ .Content }}</p>
+          <div class="product-price">
+            {{ if .Params.discount_price }}
+            <span class="original-price">{{ .Params.price }}</span>
+            <span class="discount-price">{{ .Params.discount_price }}</span>
+            {{ else }}
+            <span class="price">{{ .Params.price }}</span>
+            {{ end }}
+          </div>
+          <div class="cta-buttons">
+            <a href="https://wa.me/{{ .Site.Params.whatsappNumber }}?text=Halo, saya tertarik dengan {{ .Title }}" class="cta-button primary">
+              <i class="fab fa-whatsapp"></i> Pesan Sekarang
+            </a>
+            <a href="#specs" class="cta-button secondary">Lihat Spesifikasi</a>
+          </div>
+        </div>
+        <div class="product-image">
+          <img src="{{ .Params.featured_image }}" alt="{{ .Title }}" width="600" height="400" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section class="benefits" id="benefits">
+    <div class="container">
+      <h2>Keunggulan Produk</h2>
+      <div class="benefits-grid">
+        {{ range .Params.benefits }}
+        <div class="benefit-card">
+          <i class="{{ .icon }}"></i>
+          <h3>{{ .title }}</h3>
+          <p>{{ .description }}</p>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+
+  <!-- Specs Section -->
+  <section class="specs" id="specs">
+    <div class="container">
+      <h2>Spesifikasi Teknis</h2>
+      <div class="specs-grid">
+        {{ range .Params.specs }}
+        <div class="spec-item">
+          <span class="spec-key">{{ .key }}</span>
+          <span class="spec-value">{{ .value }}</span>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  {{ if .Params.gallery }}
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <h2>Galeri Produk</h2>
+      <div class="gallery-grid">
+        {{ range .Params.gallery }}
+        <div class="gallery-item">
+          <img src="{{ . }}" alt="Product Gallery" loading="lazy">
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ end }}
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>Dapatkan Penawaran Terbaik</h2>
+      <p>Konsultasi gratis dengan tim ahli kami</p>
+      <a href="https://wa.me/{{ .Site.Params.whatsappNumber }}?text=Halo, saya tertarik dengan {{ .Title }}" class="cta-button primary">
+        <i class="fab fa-whatsapp"></i> Hubungi Kami
+      </a>
+    </div>
+  </section>
+</div>
+{{ end }}
