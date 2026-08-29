@@ -65,7 +65,7 @@ if (updatedCount > 0) {
   execSync('hugo', { stdio: 'inherit' });
   
   // Lakukan ping ke mesin pencari
-  const sitemapUrl = 'https://cctv-bogor.online/sitemap.xml';
+  const sitemapUrl = 'https://cctv-bogor-c94.pages.dev/sitemap.xml';
   pingSearchEngines(sitemapUrl);
 } else {
   console.log('Tidak ada artikel yang perlu diperbarui.');
